@@ -1,3 +1,4 @@
+import { motion } from "framer-motion"
 import { Typewriter } from "react-simple-typewriter"
 import meImg from "../assets/me.png"
 
@@ -31,7 +32,14 @@ export const Hero = () => {
         </p>
     </div>
     <div className="flex justify-center md:justify-end">
-        <img src={meImg} alt="me" className="w-[200px] md:w-[300px] object-cover fade-in"/>
+        <motion.img 
+        src={meImg} 
+        alt="me" 
+        className="w-[200px] md:w-[300px] object-cover" 
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: false, amount: 0.1 }}
+        transition={{ duration: 0.8, ease: "easeOut" }}/>
     </div>
     </div>
 }
