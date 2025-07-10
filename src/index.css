@@ -9,7 +9,8 @@
   font-display: swap;
 }
 
-html {
+html,
+body {
   scroll-behavior: smooth;
 }
 
@@ -30,4 +31,8 @@ span {
 
 p {
   font-family: "Nunito", sans-serif;
+}
+
+.animate-spin {
+  animation: spin 8s linear infinite;
 }

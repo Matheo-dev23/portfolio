@@ -1,10 +1,12 @@
 import { motion } from "framer-motion"
 import { Typewriter } from "react-simple-typewriter"
 import meImg from "../assets/me.png"
+import { FaChevronDown } from "react-icons/fa";
+
 
 export const Hero = () => {
-    return <div className="max-w-[100%] flex item-center justifiy-between gap-85">
-    <div className="flex flex-col max-w-[50%]">
+    return <div className="max-w-[100%] flex item-center justifiy-between gap-85 mt-30">
+    <div className="flex flex-col max-w-[50%] p-4">
         <h1 className="text-[52px] font bold mt-17">{' '}
         <Typewriter
             words={["Hi, I'm Mathéo"]}
@@ -31,7 +33,7 @@ export const Hero = () => {
         ideas to life.
         </p>
     </div>
-    <div className="flex justify-center md:justify-end">
+    <div className="flex justify-center md:justify-end max-h-[400px]">
         <motion.img 
         src={meImg} 
         alt="me" 
