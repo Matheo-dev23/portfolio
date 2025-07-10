@@ -32,8 +32,9 @@ function App() {
       </section>
       <section className=''>
         <Hero/>
-        <FaChevronDown className='ml-[48%] p-2 mt-50 text-[#DADADA] w-12 h-12 bg-[#050a30] rounded-[50px] animate-bounce cursor-pointer' onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}
-        />
+        {showArrow && (<FaChevronDown className='left-1/2 p-2 text-[#DADADA] transform -translate-x-1/2 w-12 h-12 bg-[#050a30] rounded-[50px] animate-bounce cursor-pointer bottom-30 absolute' onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}
+        />)}
+        
       </section>
       
       <section className=''>

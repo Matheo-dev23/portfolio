@@ -9,7 +9,7 @@ import cSvg from "../assets/c-1.svg";
 import nodeSvg from "../assets/nodejs-icon.svg"
 
 export const Skills = () => {
-    return <div className="flex flex-col item-center justify-center mt-20">
+    return <div className="flex flex-col item-center justify-center mt-80">
             <h1 className="text-[50px] ml-4 pl-1">How i can help you ?</h1>
             <span className="text-[20px] ml-4 pl-1">i can build applicatons and work across the full stack, from front-end interfaces to back-end logic.</span>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 p-4 mt-5">
