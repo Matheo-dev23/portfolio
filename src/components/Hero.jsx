@@ -1,7 +1,7 @@
 import { motion } from "framer-motion"
 import { Typewriter } from "react-simple-typewriter"
 import meImg from "../assets/me.png"
-import { FaChevronDown } from "react-icons/fa";
+
 
 
 export const Hero = () => {

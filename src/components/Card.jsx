@@ -4,7 +4,7 @@ export const Card = ({img = [], title, description, className='', litleImg = "",
 
     const images = img.map((image, index) => {
         
-        return <img src={image} alt="" width="170px" key={index} className={`w-[170px] ${spin ? "animate-spin duration-1000" : ""}`}/>
+        return <img src={image} alt="" width="170px" key={index} className={`w-[130px] ${spin ? "animate-spin duration-1000" : ""}`}/>
     });
 
     return <motion.div 
@@ -15,7 +15,7 @@ export const Card = ({img = [], title, description, className='', litleImg = "",
         viewport={{ once: false, amount: 0.5 }} 
         transition={{ duration: 0.5, ease: "easeOut" }}
         >
-            <div className="flex item-center justify-center gap-8 h-[200px]">
+            <div className="flex item-center justify-center gap-8 h-[100px]">
                 {images}
             </div>
             <div className="mt-4">
