@@ -30,10 +30,9 @@ function App() {
     <div className='max-w-7xl px-4 m-auto text-white h-screen snap-y snap-mandatory scroll-smooth'>
       <section className=''>
         <Header/>
-      </section>
-      <section className=''>
+  
         <Hero/>
-        {showArrow && (<FaChevronDown className='left-1/2 p-2 text-[#DADADA] transform -translate-x-1/2 w-12 h-12 bg-[#050a30] rounded-[50px] animate-bounce cursor-pointer bottom-30 absolute' onClick={() => window.scrollTo({ top: window.innerHeight - 50, behavior: 'smooth' })}
+        {showArrow && (<FaChevronDown className='left-1/2 p-2 text-[#DADADA] transform -translate-x-1/2 w-12 h-12 bg-[#050a30] rounded-[50px] animate-bounce cursor-pointer bottom-30 absolute' onClick={() => window.scrollTo({ top: window.innerHeight , behavior: 'smooth' })}
         />)}
         
       </section>
