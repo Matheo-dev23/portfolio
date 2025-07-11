@@ -19,6 +19,7 @@ export const Projects = () => {
             description="Two games sharing a common board system: Ares (war and conquest), Demeter (farming and development)."
             imgTechno={javaSvg}
             imgProject={aresImg}
+            className="mt-[-8px]"
             />
             <ProjectCard title="Starship 2D"
             description="Simple 2D spaceship shooting game with keyboard controls and scoring system."

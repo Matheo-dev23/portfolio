@@ -16,7 +16,7 @@ export const Skills = () => {
         <Card title="React" 
         description="it's my favorite front-end library and I can build whatever you want with it."
         img={[reactSvg]}
-        className="img:animate-spin duration-1000"
+        className="img:animate-spin"
         spin={true}
         />
         <Card title="Java" 
