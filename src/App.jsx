@@ -14,7 +14,7 @@ function App() {
   useEffect(() => {
     const handleScroll = () => {
       // Exemple : si on a scrollé plus de 100px, cacher la flèche
-      if (window.scrollY > 100) {
+      if (window.scrollY > 500) {
         setShowArrow(false);
       } else {
         setShowArrow(true);
