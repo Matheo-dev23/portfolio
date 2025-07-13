@@ -5,6 +5,7 @@ import { Skills } from './components/Skills'
 import { FaChevronDown } from "react-icons/fa";
 import { useState, useEffect } from 'react';
 import { Projects } from './components/Projects';
+import { Contact } from './components/Contact';
 
 
 function App() {
@@ -42,6 +43,9 @@ function App() {
       </section>
       <section>
         <Projects/>
+      </section>
+      <section>
+        <Contact/>
       </section>
       
     </div>
