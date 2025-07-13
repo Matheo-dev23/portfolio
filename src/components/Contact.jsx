@@ -31,7 +31,7 @@ export const Contact = () => {
         <div className="m-auto">
             <h1 className="text-[50px]">Contact me</h1>
         </div>
-        <form onSubmit={sendEmail} className="m-auto flex flex-col w-[40%] gap-5">
+        <form onSubmit={sendEmail} className="m-auto flex flex-col md:w-[40%] gap-5 w-full">
             <label htmlFor="name" className="text-sm font-medium text-gray-500 mb-[-15px] pl-1">Your name/company</label>
             <input 
             type="text" 

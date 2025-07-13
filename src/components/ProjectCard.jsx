@@ -2,7 +2,7 @@ import { motion } from "framer-motion"
 
 export const ProjectCard = ({imgProject, imgTechno, title, description, className=''}) => {
     return <motion.div 
-        className={"bg-[#050a30] border border-gray-500/50 rounded-xl text-[20px] w-[450px]"}
+        className={"bg-[#050a30] border border-gray-500/50 rounded-xl text-[20px] w-[100%]"}
         initial={{ opacity: 0, x: -100 }}   
         whileInView={{ opacity: 1, x: 0 }} 
         exit={{ opacity: 0, x: -100 }}     

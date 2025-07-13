@@ -14,7 +14,7 @@ export const Projects = () => {
             <h1 className="text-[52px] font bold mt-17">Project i've work on </h1>
         </div>
         
-        <div className="grid grid-cols-1 lg:grid-cols-2 m-auto gap-15 mt-13 gap-y-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 m-auto gap-15 mt-13 gap-y-8 md:w-[75%]">
             <ProjectCard title="Ares and Demeter" 
             description="Two games sharing a common board system: Ares (war and conquest), Demeter (farming and development)."
             imgTechno={javaSvg}
