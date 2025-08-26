@@ -11,7 +11,7 @@ import pythonSvg from "../assets/python-svgrepo-com.svg";
 export const Projects = () => {
     return <div className="flex flex-col item-center justify-center">
         <div className="m-auto">
-            <h1 className="text-[52px] font bold mt-17">Project i've work on </h1>
+            <h1 className="text-[52px] font bold mt-17">Project i've worked on </h1>
         </div>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 m-auto gap-15 mt-13 gap-y-8 md:w-[75%]">
